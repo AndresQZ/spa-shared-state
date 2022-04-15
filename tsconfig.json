@@ -1,0 +1,10 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/web-taxco-spa-shared-state.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist",
+    "baseUrl": "src/"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
